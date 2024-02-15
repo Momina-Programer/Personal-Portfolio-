@@ -1,0 +1,240 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+ul li:hover {
+    text-decoration: underline #ff0088 3px;
+    transition: width 0.5s;
+    cursor: pointer;
+}
+
+.section1 {
+    font-family: sans-serif;
+    margin-left: 6%;
+    margin-top: 8%;
+}
+
+.section1 :first-child {
+    font-size: 14px;
+}
+
+.section1 {
+    font-size: 40px;
+}
+
+.section1 :last-child {
+    line-height: 2px;
+}
+
+.name {
+
+    color: #ff0088;
+}
+
+.section1 img {
+    width: 300px;
+    float: right;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-top: -50px;
+    size: 300px;
+}
+
+
+.section2 img {
+    width: 300px;
+    float: left;
+    padding-left: 5%;
+    height: 400px;
+    margin-top: 10px;
+
+}
+
+.section2 {
+    padding-top: 300px;
+}
+
+.section2 h1 {
+    font-size: 40px;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+.section2 p {
+    padding-left: 40%;
+    padding-right: 30px;
+
+}
+
+.section2 span {
+    margin-left: 20%;
+}
+
+.section2 :last-child {
+    padding-left: 40%;
+    margin-top: -10px;
+}
+
+.skill {
+    color: #ff0088;
+    font-family: sans-serif #f00482;
+}
+
+.section2 span {
+    text-decoration: underline #f00482 3px;
+
+}
+
+.section2 {
+    font-family: sans-serif;
+}
+
+.section3 {
+    margin-top: 300px;
+    font-family: sans-serif;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#card1 {
+    border-radius: 10px;
+    background-color: #262626;
+    width: 350px;
+    margin-left: 15%;
+    overflow: hidden;
+    margin-top: 6%;
+    transition: 0.5s;
+
+}
+
+#card1:hover {
+    background-color: #008698;
+    transform: translateY(-10px);
+}
+
+#card1 p {
+    padding-right: 70%;
+    width: 300px;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 16px
+}
+
+.h2 {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+
+#card2 {
+    border-radius: 10px;
+    background-color: #262626;
+    width: 350px;
+    margin-left: 15%;
+    overflow: hidden;
+    margin-top: 5%;
+    transition: 0.5s;
+    margin-left: 55%;
+    margin-top: -345px;
+
+
+}
+
+#card2 p {
+    padding-right: 70%;
+    width: 300px;
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+
+#card2:hover {
+    background-color: #008698;
+    transform: translateY(-10px);
+}
+
+.learn {
+    cursor: pointer;
+}
+
+.section4 form{
+    float: right;
+    padding-right: 20%;
+    margin-top: -90px;
+    
+}
+.section4{
+    padding-top: 380px;
+}
+form input,form textarea{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: #262626;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 5px  ;
+    border: 1px solid rgb(0, 225,255);
+}
+form button{
+    background-color: #f00482;
+    font-size: 16px;
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section4 h1{
+    font-size: 40px;
+    padding-left: 10%;
+    font-family: sans-serif;
+}
+
+footer{
+    font-family: sans-serif;
+    margin-top:280px;
+    text-align: center;
+    padding-left: 10%;
+    background-color: gray;
+    color: black;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+}
+.section4 p{
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-top: 2;
+}
